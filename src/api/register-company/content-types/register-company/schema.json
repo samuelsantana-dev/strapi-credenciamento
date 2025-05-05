@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "register_companies",
+  "info": {
+    "singularName": "register-company",
+    "pluralName": "register-companies",
+    "displayName": "Register Company",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_company": {
+      "type": "string"
+    },
+    "cnpj_company": {
+      "type": "biginteger",
+      "required": false
+    },
+    "address": {
+      "type": "text"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "foundation_date": {
+      "type": "date"
+    }
+  }
+}

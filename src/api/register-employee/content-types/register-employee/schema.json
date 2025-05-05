@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "register_employees",
+  "info": {
+    "singularName": "register-employee",
+    "pluralName": "register-employees",
+    "displayName": "Register Employee"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_employee": {
+      "type": "string"
+    },
+    "email_employee": {
+      "type": "email"
+    },
+    "telephone_employee": {
+      "type": "integer"
+    },
+    "position_employee": {
+      "type": "string"
+    },
+    "department_employee": {
+      "type": "string"
+    }
+  }
+}
