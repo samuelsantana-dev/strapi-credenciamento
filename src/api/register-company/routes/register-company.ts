@@ -1,6 +1,3 @@
-/**
- * register-company router
- */
 
 import { factories } from '@strapi/strapi';
 
